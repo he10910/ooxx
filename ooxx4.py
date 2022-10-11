@@ -61,7 +61,7 @@ while True:
             
     # win main sqare
     
-    if map[0][0] != "":
+    if map[0][0] != " ":
         tmpnum = map[0][0]
         a = 0
         for i in range(n):
