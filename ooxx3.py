@@ -40,3 +40,21 @@ while True:
             if a == 0:
                 print("***********{} win!************".format(tmpnum))
                 break
+            
+            
+    # win row
+    
+    for i in range(n):
+        tmpnum = map[0][i]
+        if tmpnum == " ":
+            continue
+        else:
+            for k in range(n):
+                a = -1
+                if map[k][i] != tmpnum:
+                    break
+                else:
+                    a+=1
+            if a == 0:
+                print("***********{} win!************".format(tmpnum))
+                break
